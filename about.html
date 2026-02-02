@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Hassam Ahmed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                Hassam<span>Ahmed</span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle">🌙</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="section" style="padding-top: 100px;">
+        <div class="container">
+            <h1 class="section-title">About Me</h1>
+            
+            <div class="about-content">
+                <div class="about-image fade-in">
+                    <div class="profile-img">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                
+                <div class="about-text fade-in">
+                    <h2>Hello, I'm Hassam Ahmed</h2>
+                    <h3 style="color: var(--primary-color); margin-bottom: 1.5rem;">Frontend Developer & Creative Designer</h3>
+                    <p>I am a passionate frontend developer and creative designer who builds clean, modern, and user-friendly websites. I focus on simplicity, performance, and visual impact.</p>
+                    <p>My philosophy is <strong>"Simple Design, Big Impact"</strong> - creating interfaces that are both beautiful and functional, providing exceptional user experiences while maintaining clean, efficient code.</p>
+                    <p>With expertise in HTML, CSS, JavaScript, and modern design principles, I transform complex problems into elegant solutions that delight users and drive results.</p>
+                    
+                    <div class="timeline">
+                        <h3 style="margin-top: 2rem;">My Journey</h3>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2020 - Present</div>
+                            <h4>Freelance Frontend Developer</h4>
+                            <p>Building custom websites and web applications for clients across various industries, focusing on modern design and optimal performance.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2018 - 2020</div>
+                            <h4>UI Developer at TechCorp</h4>
+                            <p>Developed responsive web interfaces and collaborated with design teams to implement pixel-perfect layouts for enterprise applications.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2016 - 2018</div>
+                            <h4>Web Design Specialist</h4>
+                            <p>Started my career creating websites for small businesses, developing strong foundations in both design and development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section" style="background-color: rgba(37, 99, 235, 0.05);">
+        <div class="container">
+            <h2 class="section-title">My Design Philosophy</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon" style="margin-bottom: 1rem;">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Purpose-Driven</h3>
+                        <p>Every design decision should serve a clear purpose and contribute to the overall user experience.</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon" style="margin-bottom: 1rem;">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>User-Centered</h3>
+                        <p>Designing with empathy, putting the needs and goals of users at the forefront of every project.</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <div class="skill-icon" style="margin-bottom: 1rem;">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Performance-Focused</h3>
+                        <p>Creating experiences that are not only beautiful but also fast, efficient, and accessible to all.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="index.html" class="logo" style="color: white;">
+                    <i class="fas fa-code"></i>
+                    Hassam<span style="color: white;">Ahmed</span>
+                </a>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                </div>
+                <p class="copyright">© <span id="currentYear"></span> Hassam Ahmed. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
